@@ -8,7 +8,7 @@
 #######################################
 backend_redis_create() {
   print_banner
-  printf "${WHITE} 💻 Creando base de datos via Docker...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Creando base de datos y phpmyadmin via Docker...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -104,7 +104,7 @@ EOF
 #######################################
 backend_node_dependencies() {
   print_banner
-  printf "${WHITE} 💻 Instalando dependencias de backend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Instalando dependencias del backend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -124,7 +124,7 @@ EOF
 #######################################
 backend_node_build() {
   print_banner
-  printf "${WHITE} 💻 Compilando el backend...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Compilando el código del backend...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -176,7 +176,7 @@ EOF
 #######################################
 backend_db_migrate() {
   print_banner
-  printf "${WHITE} 💻 Migrando la base de datos...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 ejecutando la migración...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2
@@ -196,7 +196,7 @@ EOF
 #######################################
 backend_db_seed() {
   print_banner
-  printf "${WHITE} 💻 Enviado los datos...${GRAY_LIGHT}"
+  printf "${WHITE} 💻 Realizando la carga de la base de datos...${GRAY_LIGHT}"
   printf "\n\n"
 
   sleep 2

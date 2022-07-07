@@ -23,13 +23,22 @@ clear
   printf "\n\n"
 
   printf "${GREEN}";
-  printf "        ;
+  printf "                                                     ▄▄█▀▀▀▀▀▀▀█▄▄  \n";
+  printf "                                                   ${GREEN}▄█▀${NC}   ${WHITE}▄▄${NC}      ${GREEN}▀█▄\n";
+  printf "                                                   ${GREEN}█${NC}    ${WHITE}███${NC}         ${GREEN}█\n";
+  printf "                                                   ${GREEN}█${NC}    ${WHITE}██▄         ${GREEN}█${NC}\n";
+  printf "                                                   ${GREEN}█${NC}     ${WHITE}▀██▄${NC} ${WHITE}██${NC}    ${GREEN}█\n";
+  printf "                                                   ${GREEN}█${NC}       ${WHITE}▀███▀${NC}    ${GREEN}█\n";
+  printf "                                                   ${GREEN}▀█▄           ▄█▀\n";
+  printf "                                                    ▄█    ▄▄▄▄█▀▀  \n";
+  printf "                                                    █  ▄█▀        \n";
+  printf "                                                    ▀▀▀▀          \n";
   printf "${NC}";
 
   printf "\n"
 
   printf "${GREEN}";
-  printf "Intalador de sistema Desarrollado por MDavilaR.";
+  printf " Sistema de Instalacion WBlaster (Desarrollado por MDavilaR)\n";
   printf "${NC}";
 
   printf "\n"
